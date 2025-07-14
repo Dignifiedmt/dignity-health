@@ -1,0 +1,38 @@
+[
+  {
+    "id": 5,
+    "title": "Jagorar WHO kan Kula da Mata Masu Juna Biyu",
+    "body": "Wannan jagora daga Hukumar Lafiya ta Duniya (WHO) tana ba da shawarwari kan kula da lafiyar mata masu juna biyu, ciki har da duban lafiya na yau da kullun, abinci mai gina jiki, da rigakafin cututtuka kamar malaria da HIV. Jagorar tana jaddada mahimmancin samun ƙwararrun ma'aikatan lafiya don haihuwa cikin aminci.",
+    "descriptionHa": "Shawarwari don lafiyar mata masu juna biyu",
+    "image": "/images/resource1.jpg",
+    "source": "World Health Organization (WHO)",
+    "link": "https://www.who.int/health-topics/maternal-health"
+  },
+  {
+    "id": 6,
+    "title": "Bayani daga UNICEF kan Alurar Riga Kafi ga Yara",
+    "body": "UNICEF tana ba da bayani kan mahimmancin alurar riga kafi don kare yara daga cututtuka kamar su polio, kyanda, da kuma zazzabin cizon sauro. Wannan jagora tana ƙarfafa iyaye su jiƙa yara da alura a lokacin da ya dace don tabbatar da lafiyarsu.",
+    "descriptionHa": "Muhimmancin alurar riga kafi ga yara",
+    "image": "/images/resource2.jpg",
+    "source": "UNICEF",
+    "link": "https://www.unicef.org/health/immunization"
+  },
+  {
+    "id": 7,
+    "title": "Shirin UNESCO na FRESH don Lafiyar Makaranta",
+    "body": "Shirin UNESCO na FRESH (Focusing Resources on Effective School Health) yana ba da jagora kan inganta lafiyar ɗalibai ta hanyar samar da tsafta, abinci mai gina jiki, da ilimin lafiya a makarantu. Hakanan yana taimakawa wajen rage cututtuka a cikin ɗalibai.",
+    "descriptionHa": "Inganta lafiyar ɗalibai a makaranta",
+    "image": "/images/resource3.jpg",
+    "source": "UNESCO",
+    "link": "https://www.unesco.org/en/health-education/fresh"
+  },
+  {
+    "id": 8,
+    "title": "Jagorar Pan American Health Organization kan Tsabtace Ruwa",
+    "body": "Hukumar Lafiya ta Pan American (PAHO) tana ba da shawarwari kan samar da ruwa mai tsafta da tsabtace muhalli don rage cututtuka kamar su amoebiasis da typhoid. Wannan jagora tana jaddada mahimmancin samun ruwa mai aminci don lafiyar al'umma.",
+    "descriptionHa": "Samar da ruwa mai tsafta don lafiya",
+    "image": "/images/resource4.jpg",
+    "source": "Pan American Health Organization (PAHO)",
+    "link": "https://www.paho.org/en/topics/water-and-sanitation"
+  }
+]
