@@ -44,7 +44,7 @@ const App = () => {
                     <SearchBar />
                     <HeroSection />
                     <AboutSection />
-                    <div className="preview-row">
+                    {/* <div className="preview-row">
                         <BlogSection
                             blogs={previewBlogs}
                             onAdd={handleAdd}
@@ -57,7 +57,7 @@ const App = () => {
                             onRemove={handleRemove}
                             hideAddButton={true}
                         />
-                    </div>
+                    </div> */}
                     <div className="button-container">
                         <button className="action-button" onClick={handleBackToTop}>
                             <span>Koma Sama</span>

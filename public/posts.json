@@ -1,30 +1,30 @@
 [
-  {
-    "id": 1,
-    "title": "Yadda Ake Kula da Lafiyar Jariri",
-    "body": "Wannan shafi yana ba da jagora mai zurfi kan kula da jariri, ciki har da yadda ake ciyarwa, tsarin barci, da kuma al'adun tsabta don tabbatar da lafiyar jaririnku. Muna kuma bayyana mahimmancin rigakafin cututtuka da kula da lafiya ta yau da kullun.",
-    "descriptionHa": "Kula da lafiyar jariri cikin sauƙi",
-    "image": "/images/blog1.jpg"
-  },
-  {
-    "id": 2,
-    "title": "Mahimmancin Abinci Mai Gina Jiki ga Mata Masu Juna Biyu",
-    "body": "Abinci mai gina jiki yana da mahimmanci ga lafiyar uwa da ɗan tayi. Wannan shafi yana bincika abincin da ya kamata mata masu juna biyu su ci, kamar su 'ya'yan itace, kayan lambu, da kuma abinci mai ɗauke da sinadirai kamar folic acid da iron.",
-    "descriptionHa": "Abinci mai kyau don ciki mai lafiya",
-    "image": "/images/blog2.jpg"
-  },
-  {
-    "id": 3,
-    "title": "Hanyoyin Tsarin Iyali da Lafiya",
-    "body": "Koyi game da hanyoyin hana ciki daban-daban, kamar su kwayoyin hana ciki, na'urorin ciki, da kuma hanyoyin halitta. Wannan shafi yana bayyana fa'idodi da abubuwan da za a ji tsoro don taimakawa wajen yanke shawara mai kyau don lafiyar iyali.",
-    "descriptionHa": "Hanyoyin tsarin iyali masu aminci",
-    "image": "/images/blog3.jpg"
-  },
-  {
-    "id": 4,
-    "title": "Rarraba Cututtuka a Yara",
-    "body": "Wannan shafi yana ba da bayani kan yadda ake gane alamun cututtuka a yara, kamar su zazzabi, tari, da kuma ciwon ciki. Muna kuma ba da shawarwari kan lokacin neman likita da kuma hanyoyin rigakafi kamar alurar riga kafi.",
-    "descriptionHa": "Gane da kula da cututtukan yara",
-    "image": "/images/blog4.jpg"
-  }
+    {
+        "id": 1,
+        "title": "Yadda Ake Kula da Lafiyar Jariri",
+        "body": "Wannan shafi yana ba da jagora mai zurfi kan kula da jariri, ciki har da yadda ake ciyarwa, tsarin barci, da kuma al'adun tsabta don tabbatar da lafiyar jaririnku. Muna kuma bayyana mahimmancin rigakafin cututtuka da kula da lafiya ta yau da kullun.",
+        "descriptionHa": "Kula da lafiyar jariri cikin sauƙi",
+        "image": "/image/image3.png"
+    },
+    {
+        "id": 2,
+        "title": "Mahimmancin Abinci Mai Gina Jiki ga Mata Masu Juna Biyu",
+        "body": "Abinci mai gina jiki yana da mahimmanci ga lafiyar uwa da ɗan tayi. Wannan shafi yana bincika abincin da ya kamata mata masu juna biyu su ci, kamar su 'ya'yan itace, kayan lambu, da kuma abinci mai ɗauke da sinadirai kamar folic acid da iron.",
+        "descriptionHa": "Abinci mai kyau don ciki mai lafiya",
+        "image": "/image/image2.png"
+    },
+    {
+        "id": 3,
+        "title": "Hanyoyin Tsarin Iyali da Lafiya",
+        "body": "Koyi game da hanyoyin hana ciki daban-daban, kamar su kwayoyin hana ciki, na'urorin ciki, da kuma hanyoyin halitta. Wannan shafi yana bayyana fa'idodi da abubuwan da za a ji tsoro don taimakawa wajen yanke shawara mai kyau don lafiyar iyali.",
+        "descriptionHa": "Hanyoyin tsarin iyali masu aminci",
+        "image": "/images/image4.png"
+    },
+    {
+        "id": 4,
+        "title": "Rarraba Cututtuka a Yara",
+        "body": "Wannan shafi yana ba da bayani kan yadda ake gane alamun cututtuka a yara, kamar su zazzabi, tari, da kuma ciwon ciki. Muna kuma ba da shawarwari kan lokacin Bincikan likita da kuma hanyoyin rigakafi kamar alurar riga kafi.",
+        "descriptionHa": "Gane da kula da cututtukan yara",
+        "image": "/images/blog4.jpg"
+    }
 ]

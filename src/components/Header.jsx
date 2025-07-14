@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {Link} from "react-router-dom";
-import Logo from "./Logo";
+import "/image/logo.png";
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,9 +11,9 @@ const Header = () => {
         <header className="header">
             <div className="header-left">
                 <div className="logo">
-                    <Logo />
+                    <img src="/image/logo.png" alt="dignity" className="logo" />
                 </div>
-                <h2 className="header-title">Sanarwa Kan Lafiya</h2>
+                <h2 className="header-title">Dignity Health Awareness</h2>
             </div>
             <div className="header-right">
                 <button className="hamburger-menu" onClick={toggleMenu}>
@@ -51,7 +51,7 @@ const Header = () => {
                         </svg>
                     </div>
                 </button>
-                <div className="profile-image" style={{backgroundImage: 'url("/images/profile.jpg")'}}></div>
+                <div className="profile-image" style={{backgroundImage: 'url("/image/image1.png")'}}></div>
             </div>
         </header>
     );
