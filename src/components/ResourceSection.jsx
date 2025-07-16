@@ -88,6 +88,15 @@ const ResourceSection = ({resources, onAdd, onRemove}) => {
                             className="form-input"
                         />
                         <input type="file" accept="image/*" onChange={handleImageChange} className="form-input" />
+
+                        {newResource.image && (
+                            <img
+                                src={newResource.image}
+                                alt="Preview"
+                                style={{maxWidth: "100%", marginBottom: "1rem", borderRadius: "0.5rem"}}
+                            />
+                        )}
+                        {error && <div style={{color: "red", marginBottom: "0.5rem"}}>{error}</div>}
                         <button className="submit-button" onClick={handleSubmit}>
                             Ƙara Abubuwan
                         </button>

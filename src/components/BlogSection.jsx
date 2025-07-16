@@ -8,15 +8,27 @@ const BlogSection = ({blogs, onAdd, onRemove}) => {
         image: "",
     });
     const [isFormVisible, setIsFormVisible] = useState(false);
+    const [error, setError] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        if (!newBlog.title || !newBlog.body || !newBlog.descriptionHa) {
+            setError("All fields are required.");
+            return;
+        }
+        setError("");
         onAdd("blog", newBlog);
         setNewBlog({title: "", body: "", descriptionHa: "", image: ""});
         setIsFormVisible(false);
     };
 
-    const toggleForm = () => setIsFormVisible(!isFormVisible);
+    const toggleForm = () => {
+        setIsFormVisible(!isFormVisible);
+        setError("");
+        if (isFormVisible) {
+            setNewBlog({title: "", body: "", descriptionHa: "", image: ""});
+        }
+    };
 
     const handleImageChange = (e) => {
         const file = e.target.files[0];
@@ -91,18 +103,22 @@ const BlogSection = ({blogs, onAdd, onRemove}) => {
                             className="form-input"
                         />
                         <input type="file" accept="image/*" onChange={handleImageChange} className="form-input" />
+                        {newBlog.image && (
+                            <img
+                                src={newBlog.image}
+                                alt="Preview"
+                                style={{maxWidth: "100%", marginBottom: "1rem", borderRadius: "0.5rem"}}
+                            />
+                        )}
+                        {error && <div style={{color: "red", marginBottom: "0.5rem"}}>{error}</div>}
                         <button className="submit-button" onClick={handleSubmit}>
                             Aika Shafuka
                         </button>
                     </div>
                 </div>
             )}
-            <div className="button-container">
-                <button className="load-more-button">Ƙara Shafuka</button>
-            </div>
         </div>
     );
 };
 
 export default BlogSection;
-//export default BlogSection;

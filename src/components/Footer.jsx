@@ -26,17 +26,7 @@ const Footer = () => (
                         <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"></path>
                     </svg>
                 </a>
-                <a href="#" className="social-icon">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24px"
-                        height="24px"
-                        fill="currentColor"
-                        viewBox="0 0 256 256"
-                    >
-                        <path d="M232,56H24A16,16,0,0,0,8,72V184a16,16,0,0,0,16,16H232a16,16,0,0,0,16-16V72A16,16,0,0,0,232,56Zm0,128H24V72H232V184ZM128,104v16h8a8,8,0,0,1,0,16h-8v16h16a8,8,0,0,1,0,16H120a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8h24a8,8,0,0,1,0,16Zm87.7-5.83-18,64a8,8,0,0,1-15.4,0l-18-64a8,8,0,0,1,15.4-4.34L190,130.45l10.3-36.62a8,8,0,0,1,15.4,4.34ZM64,88H56a8,8,0,0,0-8,8v64a8,8,0,0,0,8,8h8a32,32,0,0,0,32-32V120A32,32,0,0,0,64,88Zm16,48a16,16,0,0,1-16,16V104a16,16,0,0,1,16,16Z"></path>
-                    </svg>
-                </a>
+
                 <a href="#" className="social-icon">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +61,9 @@ const Footer = () => (
                     </svg>
                 </a>
             </div>
-            <p className="footer-text">© 2025 Dignity Health Awareness. Duk haƙƙoƙin mallaka.</p>
+            <p className="footer-text">
+                &copy; {new Date().getFullYear()} Dignity Health Awareness. Duk haƙƙoƙin mallaka.
+            </p>
         </div>
     </footer>
 );
